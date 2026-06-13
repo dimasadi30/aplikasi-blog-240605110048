@@ -1,14 +1,14 @@
-\# Aplikasi Blog CMS
+Aplikasi Blog CMS
 
 
 
-\## Nama Mahasiswa
+Nama Mahasiswa
 
 
 
-\*\*Nama Lengkap:\*\* Dimas Setia Adi
+Nama Lengkap : Dimas Setia Adi
 
-\*\*NIM:\*\* 240605110048
+NIM: 240605110048
 
 
 
@@ -16,7 +16,7 @@
 
 
 
-\## Deskripsi Singkat Aplikasi
+ Deskripsi Singkat Aplikasi
 
 
 
@@ -58,7 +58,7 @@ Aplikasi dibangun menggunakan framework Laravel dengan konsep MVC (Model-View-Co
 
 
 
-\## Teknologi yang Digunakan
+ Teknologi yang Digunakan
 
 
 
@@ -80,11 +80,11 @@ Aplikasi dibangun menggunakan framework Laravel dengan konsep MVC (Model-View-Co
 
 
 
-\## Langkah-Langkah Menjalankan Aplikasi Secara Lokal
+ Langkah-Langkah Menjalankan Aplikasi Secara Lokal
 
 
 
-\### 1. Clone Repository
+ 1. Clone Repository
 
 
 
@@ -96,7 +96,7 @@ git clone https://github.com/dimasadi30/aplikasi-blog-240605110048.git
 
 
 
-\### 2. Masuk ke Folder Project
+ 2. Masuk ke Folder Project
 
 
 
@@ -108,7 +108,7 @@ cd aplikasi-blog-240605110048
 
 
 
-\### 3. Install Dependency
+ 3. Install Dependency
 
 
 
@@ -120,7 +120,7 @@ composer install
 
 
 
-\### 4. Salin File Environment
+ 4. Salin File Environment
 
 
 
@@ -144,7 +144,7 @@ copy .env.example .env
 
 
 
-\### 5. Generate Application Key
+ 5. Generate Application Key
 
 
 
@@ -156,7 +156,7 @@ php artisan key:generate
 
 
 
-\### 6. Konfigurasi Database
+ 6. Konfigurasi Database
 
 
 
@@ -166,7 +166,7 @@ Buat database baru di MySQL, kemudian sesuaikan konfigurasi pada file `.env`:
 
 ```env
 
-DB\_DATABASE=nama\_database
+DB\_DATABASE=blog_uas
 
 DB\_USERNAME=root
 
@@ -176,7 +176,7 @@ DB\_PASSWORD=
 
 
 
-\### 7. Jalankan Migrasi Database
+ 7. Jalankan Migrasi Database
 
 
 
@@ -200,7 +200,7 @@ php artisan migrate --seed
 
 
 
-\### 8. Membuat Symbolic Link Storage
+ 8. Membuat Symbolic Link Storage
 
 
 
@@ -212,7 +212,7 @@ php artisan storage:link
 
 
 
-\### 9. Menjalankan Server Laravel
+ 9. Menjalankan Server Laravel
 
 
 
@@ -240,7 +240,7 @@ http://127.0.0.1:8000
 
 
 
-\## Tautan Video Demonstrasi
+ Tautan Video Demonstrasi
 
 
 
@@ -256,11 +256,11 @@ https://youtu.be/e-tFyU7y5Uo?si=jVhXTuyA-mBp0tJ1
 
 
 
-\## Struktur Role Pengguna
+ Struktur Role Pengguna
 
 
 
-\### Admin
+ Admin
 
 
 
@@ -274,7 +274,7 @@ https://youtu.be/e-tFyU7y5Uo?si=jVhXTuyA-mBp0tJ1
 
 
 
-\### Penulis
+ Penulis
 
 
 
@@ -288,7 +288,7 @@ https://youtu.be/e-tFyU7y5Uo?si=jVhXTuyA-mBp0tJ1
 
 
 
-\### Tamu
+ Tamu
 
 
 
@@ -304,7 +304,7 @@ https://youtu.be/e-tFyU7y5Uo?si=jVhXTuyA-mBp0tJ1
 
 
 
-\## Lisensi
+ Lisensi
 
 
 
